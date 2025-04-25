@@ -27,7 +27,7 @@
 ### 1. Клонируй репозиторий
 
 ```bash
-git clone https://github.com/твой-логин/название-репозитория.git
+git clone https://github.com/Fl1niks14/ArrowsGame.git
 cd ARROW_GAME
 ```
 ```bash

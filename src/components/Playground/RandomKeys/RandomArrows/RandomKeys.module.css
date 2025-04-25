@@ -1,0 +1,17 @@
+.icon {
+	font-size: 30px;
+	margin: 5px;
+}
+
+.iconSuccess {
+	color: #4caf50;
+	background-color: #4caf50;
+	border-radius: 50%;
+}
+
+.iconUnSuccess {
+	color: #f44336; 
+	background-color: #f44336;
+	border-radius: 50%;
+}
+

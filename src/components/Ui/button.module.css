@@ -1,0 +1,46 @@
+/* Основний стиль для кнопки */
+.button {
+	background-color: #4caf50;
+	/* Зелений фон */
+	color: white;
+	/* Білий текст */
+	font-size: 14px;
+	/* Розмір шрифта */
+	padding: 8px 16px;
+	/* Відступи для кнопки */
+	border-radius: 8px;
+	/* Заокруглені кути */
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	/* Плавна зміна кольору */
+	text-transform: uppercase;
+	/* Великі літери */
+	font-weight: bold;
+	/* Жирний шрифт */
+}
+
+.button:hover {
+	background-color: #45a049;
+	/* Темніший зелений фон при наведенні */
+	transform: scale(1.05);
+	/* Легке збільшення кнопки при наведенні */
+}
+
+.button:disabled {
+	background-color: #ccc;
+	/* Сірий фон для вимкнених кнопок */
+	color: #999;
+	/* Світліший текст */
+	cursor: not-allowed;
+	/* Курсор при наведенні на вимкнену кнопку */
+}
+
+/* Якщо потрібно додати стилі для різних розмірів кнопок */
+.buttonSmall {
+	padding: 6px 12px;
+	font-size: 12px;
+}
+
+.buttonLarge {
+	padding: 12px 24px;
+	font-size: 18px;
+}

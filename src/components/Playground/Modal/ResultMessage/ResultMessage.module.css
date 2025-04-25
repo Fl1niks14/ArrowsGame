@@ -1,0 +1,29 @@
+.message {
+	font-size: 24px;
+	
+	font-weight: bold;
+	
+	text-align: center;
+	
+	padding: 20px;
+	border-radius: 8px;
+	
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.win {
+	color: white;
+	background-color: #4caf50;
+	
+}
+
+.lose {
+	color: white;
+	background-color: #f44336;
+
+}
+
+.message:hover {
+	transform: scale(1.1);
+	
+}

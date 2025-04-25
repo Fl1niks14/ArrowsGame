@@ -1,0 +1,42 @@
+.playground_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.current_step {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #333;
+	font-weight: bold;
+}
+
+button,
+.MuiButton-root {
+	font-family: 'Roboto', sans-serif;
+	background-color: #4caf50;
+	color: #fff;
+	border-radius: 8px;
+	padding: 12px 24px;
+	border: none;
+	font-size: 16px;
+	transition: background-color 0.3s;
+}
+
+button:hover,
+.MuiButton-root:hover {
+	background-color: #45a049;
+}
+
+button:disabled,
+.MuiButton-root:disabled {
+	background-color: #c5c5c5;
+	cursor: not-allowed;
+}

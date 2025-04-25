@@ -1,0 +1,32 @@
+.container {
+	padding: 20px;
+	background-color: #fafafa;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.title {
+	font-size: 28px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.randomArrowsWrapper {
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.randomArrowsWrapper span {
+	margin: 10px;
+	font-size: 30px;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.randomArrowsWrapper span:hover {
+	transform: scale(1.2);
+}

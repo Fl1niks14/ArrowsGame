@@ -1,0 +1,33 @@
+.container {
+	background-color: #f8f9fa;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.title {
+	font-size: 28px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.scoreItem {
+	font-size: 18px;
+	margin: 10px 0;
+	font-weight: 600;
+	transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.success {
+	color: #4caf50;
+}
+
+.error {
+	color: #f44336;
+}
+
+.scoreItem:hover {
+	transform: scale(1.1);
+}
